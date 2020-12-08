@@ -8,9 +8,21 @@ spicy_foods = [
 
 def print_spicy_foods(spicy_foods)
 
+  puts "#{spicy_foods[1]}"
+
+
 end
 
 def get_names(spicy_foods)
+
+  spicy_foods.map {|(hash_spicy)|
+    hash_spicy.map {|name,cuisine,heat_level|
+    binding.pry
+  }
+ }
+   
+
+       
 
 end
 
